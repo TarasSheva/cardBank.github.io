@@ -1,6 +1,7 @@
 const menu = document.querySelector('#mobile-menu')
 const menuLinks = document.querySelector('.navbar_menu')
 const navbarLogo = document.querySelector('#navbar_logo')
+const homeBtn = document.querySelector('.main_btn')
 
 const mobileMenu = () => {
     menu.classList.toggle('is-active')
@@ -8,6 +9,10 @@ const mobileMenu = () => {
 }
 
 menu.addEventListener('click', mobileMenu)
+
+const toAbout = () => {
+
+}
 
 const highlightMenu = () => {
     const elem = document.querySelector('.highlight');
